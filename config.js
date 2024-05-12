@@ -5,7 +5,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 const DB_URL =  process.env.DATABASE_URL || '';
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "inrl~6d7c1I7zS723100039d26c6dc9038dd8dcbe", //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || "inrl~9d48cktSf55dffac18d235246f32888ff6ef", //your ssid to run bot
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
